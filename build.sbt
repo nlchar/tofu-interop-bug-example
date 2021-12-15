@@ -9,3 +9,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "tofu-interop-bug-example"
   )
+
+scalacOptions += "-Ypartial-unification"
